@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_facemovie/medic_specs/medic_specs"
+	"$surfaceprop"	"default"
+	"$bumpmap"	"models/props_facemovie/medic_specs/medic_specs_normal"
+	"$envmap"	"env_cubemap"
+	"$envmaptint" "[.1 .1 .1]"
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponent"	"80"
+	"$phongfresnelranges"	"[1 2 2.5]"
+}

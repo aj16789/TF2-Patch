@@ -1,0 +1,85 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"effects\invuln_anim_small"
+	<dx90
+	{
+		 	"$bumpmap" "water/dx80_tfwater001_normal"
+	}
+	"$bumpmap" "water/tfwater001_normal"
+	"$envmap" "effects\invun_red_hdr"
+	"$envmaptint" "[5 0 0]"
+	"$surfaceprop" "metal"
+	"$halflambert" "1"
+
+	"$selfillum" "1"
+//	"$selfIllumFresnel" "1"
+//	"$selfIllumFresnelMinMaxExp" "[0 18 13]" // 0.0 1.0 1.0 is the default
+
+	"$invulnlevel" "0"
+	"$invulnexponent" "1"
+	"$invulnfmax" "18"
+	"$invulnscale" "0"
+	"$invulnphong" "1"
+
+	"$half" "0.5"
+
+	"$invulnphongfading" "0"
+	"$invulnphongfull" "1"
+	"$invulnphongoutput" "1" 
+
+	"$invulnexponentfading" "1"
+	"$invulnexponentfull" "13"
+	"$invulnexponentoutput" "1"
+	
+	"$invulnfmaxfading" "-31"
+	"$invulnfmaxfull" "18"
+	"$invulnfmaxoutput" "1"
+
+	"$phong" "1"
+	"$phongexponent"  "65"
+	"$phongboost" "[.5]"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[4 1 8]"
+	
+	// Rim lighting parameters
+	"$rimlight" "1"		
+	"$rimlightexponent" "11"
+	"$rimlightboost" "5"	
+	
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 15
+		}
+//		"AnimatedTexture"
+// 		{
+// 			"animatedtexturevar" "$bumpmap"
+// 			"animatedtextureframenumvar" "$frame"
+// 			"animatedtextureframerate" 30
+// 		}
+	"Sine"
+		{
+			"sineperiod" "10.5"
+			"sinemin" ".8"
+			"sinemax" "10"
+			"resultVar" "$selfillumtint[0]"
+		}
+	"Sine"
+		{
+			"sineperiod" "10.5"
+			"sinemin" ".2"
+			"sinemax" "10"
+			"resultVar" "$selfillumtint[1]"
+		}
+	"Sine"
+		{
+			"sineperiod" "10.5"
+			"sinemin" ".2"
+			"sinemax" "10"
+			"resultVar" "$selfillumtint[2]"
+		}
+	}
+}

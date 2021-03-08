@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/player/hvyweapon/shell_glow"
+	"$surfaceprop"	"no_decal"
+	"$selfillum" 1
+	"$additive"	1
+	"$vertexalpha"	"1"
+	"$vertexcolor"	"1"
+	"$color" "[2 0 0]"
+
+}

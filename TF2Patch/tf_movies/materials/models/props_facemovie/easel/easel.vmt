@@ -1,0 +1,12 @@
+"vertexlitGeneric"
+{
+	"$basetexture"	"models/props_facemovie/easel/easel"
+	"$surfaceprop"	"Wood"
+	"$bumpmap"	"models/props_facemovie/easel/easel_n"
+	"$envmap"	"env_cubemap"
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponenttexture"	"models/props_facemovie/easel/easel_exp"
+	"$phongfresnelranges"	"[1 1.5 2]"
+}

@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_facemovie/guitar/strings"
+	"$surfaceprop"	"metal"
+	"$translucent"	"1"
+	"$alphatest" "1"
+	"$bumpmap"	"models/props_facemovie/guitar/strings_normal"
+	"$envmap"	"env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+
+	"$ambientocclusion" "1"
+
+}

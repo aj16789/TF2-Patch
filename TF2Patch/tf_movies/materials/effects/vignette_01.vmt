@@ -1,0 +1,6 @@
+"modulate"
+{
+	"$translucent" 1
+	"$basetexture" "effects/vignette_01"
+	"$MOD2X" 1
+}

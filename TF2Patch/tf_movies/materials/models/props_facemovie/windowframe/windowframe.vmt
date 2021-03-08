@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_facemovie/windowframe/windowframe"
+	"$surfaceprop"	"Wood"
+	"$bumpmap"	"models/props_facemovie/windowframe/windowframe_n"
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponenttexture"	"models/props_facemovie/windowframe/windowframe_exp"
+	"$phongfresnelranges"	"[2 1 .8]"
+}

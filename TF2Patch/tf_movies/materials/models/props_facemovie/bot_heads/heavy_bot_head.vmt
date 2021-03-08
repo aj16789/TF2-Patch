@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_facemovie/bot_heads/heavy_bot_head"
+	"$surfaceprop"	"default"
+	"$bumpmap" "models/props_facemovie/bot_heads/heavy_bot_head_normal"
+	"$selfillum" 1
+//	"$basemapalphaphongmask" 1
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"4"
+	"$phongexponent"	"20"
+	"$phongfresnelranges"	"[.5 1 2]"
+	
+	"$rimlight" 1
+}

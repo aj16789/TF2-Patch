@@ -1,0 +1,13 @@
+"Refract"
+{
+ 	"$refractamount" ".02"
+ 	"$bluramount" "1"
+	"$scale" "[1 1]"
+ 	"$normalmap" "overlays/tv_field_overlay_normal"
+	"$bumpframe" "0"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$forcerefract" 1
+	"$nofog" "1"
+	"$nocull" "1"	
+}

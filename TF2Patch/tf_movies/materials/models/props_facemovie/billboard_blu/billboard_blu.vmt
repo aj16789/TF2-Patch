@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_facemovie/billboard_blu/billboard_blu"
+	"$surfaceprop"	"default"
+	"$selfillum"	1
+}

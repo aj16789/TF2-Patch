@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_facemovie/table002/table002"
+	"$surfaceprop"	"metal"
+	"$bumpmap"	"models/props_facemovie/table002/table002_n"
+
+	
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponenttexture"	"models/props_facemovie/table002/table002_exp"
+	"$phongfresnelranges"	"[2 1 .8]"
+}

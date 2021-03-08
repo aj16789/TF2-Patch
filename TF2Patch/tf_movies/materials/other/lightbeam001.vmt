@@ -1,0 +1,7 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"other/lightbeam001"
+	"$surfaceprop"	"default"
+	"$translucent"	1
+	"$additive"	1
+}

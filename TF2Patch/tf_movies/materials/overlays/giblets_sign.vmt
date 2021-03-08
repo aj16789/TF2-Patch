@@ -1,0 +1,6 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"overlays/giblets_sign"
+	"$surfaceprop"	"default"
+	"$translucent"	1
+}

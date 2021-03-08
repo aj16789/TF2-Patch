@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"overlays/mtt_soldier_blood_small"
+	"$surfaceprop"	"default"
+	"$translucent"	1
+}

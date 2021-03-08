@@ -1,0 +1,6 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"overlays/warehousedirtyglass001"
+	"$surfaceprop"	"glass"
+	"$translucent"	1
+}

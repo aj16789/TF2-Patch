@@ -1,0 +1,7 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"other/smokegradient001"
+	"$surfaceprop"	"default"
+	"$translucent"	1
+	"%keywords" "tfm"
+}
